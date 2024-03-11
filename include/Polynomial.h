@@ -17,7 +17,7 @@ public:
 	bool operator== (const Polynomial &rcPoly) const;
 	Polynomial operator+ (const Polynomial &rcPoly) const;
 	Polynomial operator- (const Polynomial &rcPoly) const;
-	Polynomial operator+ (const Term &rcTerm);
+	Polynomial operator+ (const Term &rcTerm) const;
 
 	friend istream &operator>> (istream &rcInStream, Polynomial &rcPoly);
 	friend ostream &operator<< (ostream &rcOutStream, Polynomial &rcPoly);
