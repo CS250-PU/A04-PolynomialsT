@@ -20,7 +20,7 @@ public:
 	Polynomial operator+ (const Term &rcTerm) const;
 
 	friend istream &operator>> (istream &rcInStream, Polynomial &rcPoly);
-	friend ostream &operator<< (ostream &rcOutStream, Polynomial &rcPoly);
+	friend ostream &operator<< (ostream &rcOutStream, const Polynomial &rcPoly);
 
 private:
 	vector<Term> mcTerms;
